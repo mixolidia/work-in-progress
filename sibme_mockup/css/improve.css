@@ -1,0 +1,29 @@
+#improve_schools {
+    text-align: center;    
+}
+
+#improve_schools h1 {
+    color: black;
+    font-weight: bold;  
+}
+
+#improve_schools h3 {
+    color: rgb(123, 123, 123);
+    font-weight: bold;
+    padding: 0px 180px 0px 180px;
+
+}
+
+.improve_box {
+    display:grid;
+}
+
+div#academic_gain img {
+    height: 138px;
+
+}
+
+div#collab img {
+    height: 138px;
+
+}

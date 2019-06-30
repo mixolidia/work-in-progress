@@ -1,0 +1,48 @@
+nav {
+    margin-top: 25px;
+}
+
+nav ul{ 
+    text-align: center; 
+}
+
+nav ul li { 
+    display: inline-block; 
+}
+
+li {
+    list-style-type: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active  {
+    border-radius: 15px;
+    color: inherit;
+    font-size: .75rem;
+    font-weight: 1000;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+#top_menu_nav ul li:first-of-type a {
+    background-color: rgb(235, 235, 235);
+}
+button.sign_up {
+    height: 35px;
+    font-weight: bold;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0;
+}
+
+button.login {
+    height: 35px;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 0;
+}
