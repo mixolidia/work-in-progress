@@ -7,23 +7,6 @@ main h2 {
     color: #a5a5a5;
 }
 
-#improve_schools {
-    margin-top: 125px;
-}
-
-#improve_schools h1 {
-    font-size: 3em;
-}
-
-#improve_schools h2 {
-    font-size: 1.5em;
-}
-
-.improve_box {
-    color: #4d4d4d;
-}
-
-h2.improve_box {
-    font-size: 1em;
-    font-weight: 600;
+#social_int {
+    background-color: #fcfcfc;
 }
