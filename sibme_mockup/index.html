@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/headers.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/improve.css">
-        <link rel="stylesheet" href="css/social.css">
-        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" type ="text" href="css/global.css">
+        <link rel="stylesheet" type ="text" href="css/nav.css">
+        <link rel="stylesheet" type ="text" href="css/headers.css">
+        <link rel="stylesheet" type ="text" href="css/main.css">
+        <link rel="stylesheet" type ="text" href="css/improve.css">
+        <link rel="stylesheet" type ="text" href="css/social.css">
+        <link rel="stylesheet" type ="text" href="css/footer.css">
         <title>Sibme - Home</title>
     </head>
     <body>
@@ -66,30 +66,32 @@
                 <h3>
                     Sibme allows teachers, administrators, and school leaders to discuss, share and access instructional best practices as they happen in the classroom.
                 </h3>
-                <div class="observe improve_box">
-                    <img src="images/icon_observe.png" alt="magnifying glass with an eye in a grey hexagon icon">
-                    <h3>Observe</h3>
-                    <p>See every classroom at your leisure</p>
-                </div>
-                <div class="eval_dev improve_box">
-                    <img src="images/icon_eval_dev.png" alt="hammer and wrench in a grey hexagon icon">
-                    <h3>Evaluate & Develop</h3>
-                    <p>Find and grow those rock star teachers</p>
-                </div>
-                <div class="collab improve_box">
-                    <img src="images/icon_collaborate.png" alt="">
-                    <h3>Collaborate</h3>
-                    <p>Sibme keeps teams, departments, and schools working and growing together.</p>
-                </div>
-                <div class="academic_gain improve_box">
-                    <img src="images/icon_academic.png" alt="graduation cap in a grey hexagon ico">
-                    <h3>Academic gain</h3>
-                    <p>Better teachers =  increased student achivement</p>
-                </div>
+                <div class="improve_schools_grid">
+                    <div class="observe improve_box">
+                        <img src="images/icon_observe.png" alt="magnifying glass with an eye in a grey hexagon icon">
+                        <h3>Observe</h3>
+                        <p>See every classroom at your leisure</p>
+                    </div>
+                    <div class="eval_dev improve_box">
+                        <img src="images/icon_eval_dev.png" alt="hammer and wrench in a grey hexagon icon">
+                        <h3>Evaluate & Develop</h3>
+                        <p>Find and grow those rock star teachers</p>
+                    </div>
+                    <div class="collab improve_box">
+                        <img src="images/icon_collaborate.png" alt="">
+                        <h3>Collaborate</h3>
+                        <p>Sibme keeps teams, departments, and schools working and growing together.</p>
+                    </div>
+                    <div class="academic_gain improve_box">
+                        <img src="images/icon_academic.png" alt="graduation cap in a grey hexagon ico">
+                        <h3>Academic gain</h3>
+                        <p>Better teachers =  increased student achivement</p>
+                    </div>
+                </div><!--improve_schools_grid-->
             </section><!--improve_schools-->
-            <hr id="content_separator">
-            <section id="social_int">
-                <div id="recent_posts">
+            <hr class="content_separator">
+            <section class="social_int">
+                <div class="social_int_box">
                     <div class="blog_post">
                         <h3>Recent Blog Posts</h3>
                         <h4>Lorem Ipsum is simply dummy text</h4>
@@ -112,28 +114,29 @@
                     </div>
                 <a href="https://sibme.com/blog/">Follow the Sibme Blog</a>
                 </div><!--recent_posts-->
-                <div id="people_saying">
+                <div class="social_int_box">
                     <h3>What People Are Saying</h3>
                     <div class="people_quotes">
-                        <p>
+                        <p><q>
                             Lectus commodo quisque ultricies consectetur vestibulum vivamus dictumst arcu facilisis. Class et himenaeos id. Hac purus diam id sed etiam interdum libero mattis. 
-                        </p>
+                        </q></p>
                         <h4>-- Tanveer Junayed <span>of Wearemax</span></h4>
                     </div>
                     <div class="people_quotes">
-                        <p>
-                            Pretium netus convallis facilisis placerat ut euismod sagittis ullamcorper mollis pellentesque nisi. Etiam justo netus nam felis convallis sollicitudin ultricies odio nulla velit. Aptent et magnis turpis leo mauris eros, commodo lacus! Mauris dignissim posuere placerat vulputate sociis enim hac accumsan sociis cubilia cursus mollis. Vestibulum sit euismod metus ridiculus lacus lacus fermentum aliquam id.                            </p>
+                        <p><q>
+                            Pretium netus convallis facilisis placerat ut euismod sagittis ullamcorper mollis pellentesque nisi. Etiam justo netus nam felis convallis sollicitudin ultricies odio nulla velit. Aptent et magnis turpis leo mauris eros, commodo lacus! Mauris dignissim posuere placerat vulputate sociis enim hac accumsan sociis cubilia cursus mollis. Vestibulum sit euismod metus ridiculus lacus lacus fermentum aliquam id.
+                        </q></p>
                         <h4>-- John Doe <span>of Mint</span></h4>
                     </div>
                 </div><!--people_saying-->                                         
-                <div id="fav_tweets">
+                <div class="social_int_box">
                     <h3>Favorite Tweets</h3>
                     <button>Twitter Follow Me Button</button>
                     <p>Twitter Profile Picture |Lorem Ipsum Tweet</p>
                     <p>Twitter Profile Picture |Lorem Ipsum Tweet</p>
                 </div><!--fav_tweets-->
             </section><!--social_int-->
-            <hr id="content_separator">
+            <hr class="content_separator">
         </main>
         <footer>
             <nav id="btm_menu_nav">

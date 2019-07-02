@@ -1,3 +1,7 @@
+/* * {
+    outline: red .1em solid;
+} */
+
 main h1 {
     font-size: 2.5rem;
 }
@@ -7,6 +11,98 @@ main h2 {
     color: #a5a5a5;
 }
 
-#social_int {
+#improve_schools {
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap; */
+    margin-top: 125px;
+    text-align: center;  
+
+}
+
+#improve_schools h1 {
+    color: black;
+    font-weight: bold; 
+    font-size: 3em;
+}
+
+#improve_schools h3 {
+    color: rgb(123, 123, 123);
+    font-weight: bold;
+    padding: 0px 180px 0px 180px;
+}
+
+.improve_schools_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;  
+
+}
+
+.improve_schools_grid h3 {
+    text-align: inherit;
+}
+
+.improve_box {
+    color: #4d4d4d;
+    border: 1px solid #a0b0ce;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: #a5a5a5;
+    flex-basis: auto;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 105px;
+}
+
+h3.improve_box {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+p.improve_box {
+    padding: 10px;
+}
+
+.observe {
+    margin-top: 75px;
+
+}
+
+.eval_dev {
+    margin-top: 75px;
+
+}
+
+.collab {
+    margin-top: 75px;
+
+}
+
+.academic_gain {
+    margin-top: 75px;
+    grid-column-end: auto;
+
+}
+
+div.academic_gain img {
+    height: 138px;
+}
+
+div.collab img {
+    height: 138px;
+}
+
+.social_int {
     background-color: #fcfcfc;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-align: left;  
+}
+
+
+.social_int_box {
+    padding: 20px;
 }
