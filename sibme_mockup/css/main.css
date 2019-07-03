@@ -30,7 +30,7 @@ main h2 {
 #improve_schools h3 {
     color: rgb(123, 123, 123);
     font-weight: bold;
-    padding: 0px 180px 0px 180px;
+    /* padding: 0px 180px 0px 180px; */
 }
 
 .improve_schools_grid {
